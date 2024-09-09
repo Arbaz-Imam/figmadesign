@@ -21,7 +21,7 @@ function Home(){
 
    </div>
    <div className="computerimg">
-    <img src={computerimg} alt='Description of the image'/>
+    <img src={computerimg}alt='computer'/>
    </div>
 </div>
  <div  className=" container section2"> 
@@ -34,26 +34,25 @@ function Home(){
    </div>
    <div className='bookicon'>
   <div>
-<img src={bookicon} alt='Description of the image' style={{width:"36px", height:"36px"}} />
+<img src={bookicon}alt='book' style={{width:"36px", height:"36px"}} />
 <h3>Title Goes Here</h3>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
 </div>
 
   <div>
-<img src={bookicon} alt='Description of the image'
-style={{width:"36px", height:"36px"}} />
+<img src={bookicon}alt='novel' style={{width:"36px", height:"36px"}} />
 <h3>Title Goes Here</h3>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
 </div>
 </div>
    </div>
     <div className="secondimg">
-    <img src={secondimg} alt='Description of the image'/>
+    <img src={secondimg}alt='secondary'/>
    </div>
 </div>
 <div className="container section3">
   <div className="girlimg">
-    <img src={girlimg} alt='Description of the image'className='w-100' />
+    <img src={girlimg}alt='girl'className='w-100' />
   </div>
  <div className="paraNcontent3">
   <h3>Light, Fast & Powerful</h3>
@@ -64,7 +63,7 @@ style={{width:"36px", height:"36px"}} />
 </div>
 <div className="container section4">
   <div className="mobileimg">
-    <img src={mobileimg} alt='Description of the image'className='w-100' />
+    <img src={mobileimg}alt='mobile'className='w-100' />
   </div>
  <div className="paraNcontent4">
   <h3>Light, Fast & Powerful</h3>
@@ -75,7 +74,7 @@ style={{width:"36px", height:"36px"}} />
 </div>
 <div className="container section5">
   <div className="girlimg2">
-    <img src={girlimg2} alt='Description of the image'className='w-100' />
+    <img src={girlimg2}alt='image'className='w-100' />
   </div>
  <div className="paraNcontent5">
   <h3>Light, Fast & Powerful</h3>
