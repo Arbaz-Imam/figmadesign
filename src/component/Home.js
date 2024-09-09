@@ -74,7 +74,7 @@ function Home(){
 </div>
 <div className="container section5">
   <div className="girlimg2">
-    <img src={girlimg2}alt='image'className='w-100' />
+    <img src={girlimg2}alt='car'className='w-100' />
   </div>
  <div className="paraNcontent5">
   <h3>Light, Fast & Powerful</h3>
