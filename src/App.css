@@ -2,6 +2,9 @@
  max-width: 1100px;
 }
 
+/* .w-100 {
+    width: auto;
+}  */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -13,7 +16,7 @@
     flex-direction: row;
 }
 
-.paraNbtn{
+.paraNbtn1{ 
 
     /* display: flex; */
     align-content: center;
@@ -50,7 +53,7 @@ gap: 20px;
     flex-direction: column;
 
 }
-.paraNcontent{
+.paraNcontent2{
     margin-bottom: 39px;
 
 }
@@ -62,24 +65,33 @@ gap: 20px;
 .secondimg{
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 500px;  
     width: 500px;
 }
 
 .section3{
+    /* border: 2px solid red; */
     display: flex;
     margin: 80px auto;
     justify-content: space-between;
     gap: 20px;
+    
 }
 
 .girlimg{
+    /* border: 2px solid red; */
    align-content: center; 
+   display: flex;
+   flex-direction: column;
+  
 }
 
-.paraNcontent2{
+.paraNcontent3{
+        /* border: 2px solid red; */
+        width: 600px;
+        align-items: center;
     justify-content: center;
-    display: flex;
+        display: flex;
     flex-direction: column;
 
 }
@@ -95,10 +107,12 @@ gap: 20px;
    
     
 }
-.paraNcontent3{
+.paraNcontent4{
     justify-content: center;
     display: flex;
     flex-direction: column;
+    width: 600px;
+        align-items: center;
 }
 .section5{
     display: flex;
@@ -109,10 +123,12 @@ gap: 20px;
 .girlimg2{
     align-content: center; 
 }
-.paraNcontent4{
+.paraNcontent5{
     justify-content: center;
     display: flex;
     flex-direction: column;
+    width: 600px;
+        align-items: center;
 }
 .section6{
     align-content: center;
@@ -124,7 +140,7 @@ gap: 20px;
     background-color:#E7ECFF;
 
 }
-.paraNcontent5{
+.paraNcontent6{
       display: flex;
     justify-content: center;
     text-align: center;
@@ -141,14 +157,18 @@ gap: 20px;
     margin: 20px  auto;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 650px){
+    .w-100{
+        width: 100% !important;
+    }
     .section1{
     flex-direction: column-reverse;
     gap: 20px;
     justify-content: start;
     padding: 40px auto;
     }
-    .paraNbtn{
+    
+    .paraNbtn1{
     justify-content: center;
     width: auto;
 
@@ -164,8 +184,8 @@ gap: 20px;
         gap: 20px;
         margin-bottom: 20px;
         }
-}
-@media only screen and (max-width: 1000px){
+
+
     .section2{
     flex-direction: column-reverse;
     justify-content: start;
@@ -182,30 +202,31 @@ gap: 20px;
           height: auto;
     }
     
-}
 
-@media only screen and (max-width: 1000px){
+
+
     .section3{
+        
         flex-direction: column;
         justify-content: start;
     }
     
     .girlimg{
+        justify-items: center;
         flex-direction: column;
         margin-top: 20px;
     }
-        .w-100{
-            width: 100%;
-        }
+       
     
-    .paraNcontent2{
+    .paraNcontent3{
         justify-content: center;
         display: flex;
+        width: auto;
         flex-direction: column;
+        
     
     }
-}
-@media only screen and (max-width: 1000px){
+
     .section4{
         flex-direction: column;
         justify-content: start;
@@ -213,17 +234,18 @@ gap: 20px;
     .mobileimg{
         margin-top: 20px;
        }
-       .w-100{
-        width: 100%;
-    }  
+      
     
-    .paraNcontent3{
+    .paraNcontent4{
+        
         justify-content: center;
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
     }
-}
-@media only screen and (max-width: 1000px){
+
+
     .section5{
         flex-direction: column;
         justify-content: start;
@@ -232,28 +254,31 @@ gap: 20px;
         flex-direction: column;
         margin-top: 20px;}
 
-        .w-100{
-            width: 100%;
-        }
-    .paraNcontent4{
+       
+    .paraNcontent5{
         justify-content: center;
         display: flex;
+        width: auto;
         flex-direction: column;
         margin-bottom: 20px;
+        flex-wrap: wrap;
+
     }
-}
-@media only screen and (max-width: 1000px){
+
+
     .section6{
         flex-direction: column;
         justify-content: start;
       
     }
-    .paraNcontent5{
+    .paraNcontent6{
           display: flex;
         justify-content: center;
         text-align: center;
         flex-direction: column;
         padding: 80px;
+        flex-wrap: wrap;
+
     
     }
     .lastbtn{
@@ -268,19 +293,19 @@ gap: 20px;
 
 /* media query for min width */
 @media only screen and (min-width: 650px) and (max-width:1000px){
+    .w-100{
+        width: 100% !important;
+    }
 .navbar{
     font-size: 1.5rem;
-}    
-}
-
-@media only screen and (min-width: 650px) and (max-width:1000px){
-    .section1{
+}  
+   .section1{
     flex-direction: column-reverse;
     gap: 20px;
     justify-content: start;
     padding: 40px auto;
     }
-    .paraNbtn{
+    .paraNbtn1{
     justify-content: center;
     width: auto;
     font-size: 1.5rem;
@@ -296,8 +321,8 @@ gap: 20px;
         gap: 20px;
         margin-bottom: 20px;
         }
-}
-@media only screen and (min-width: 650px) and (max-width:1000px){
+
+
     .section2{
     flex-direction: column-reverse;
     justify-content: start;
@@ -317,9 +342,9 @@ gap: 20px;
           height: auto;
     }
     
-}
 
-@media only screen and (min-width: 650px) and (max-width:1000px){
+
+
     .section3{
         flex-direction: column;
         justify-content: start;
@@ -329,20 +354,20 @@ gap: 20px;
         flex-direction: column;
         margin-top: 20px;
     }
-        .w-100{
-            width: 100%;
-        }
+       
     
-    .paraNcontent2{
+    .paraNcontent3{
+        width: 100%;
+        border: 2px solid red;
         justify-content: center;
         display: flex;
         flex-direction: column;
         font-size: 1.5rem;
+        flex-wrap: wrap;
 
     
     }
-}
-@media only screen and (min-width: 650px) and (max-width:1000px){
+
     .section4{
         flex-direction: column;
         justify-content: start;
@@ -350,19 +375,16 @@ gap: 20px;
     .mobileimg{
         margin-top: 20px;
        }
-       .w-100{
-        width: 100%;
-    }  
+     
     
-    .paraNcontent3{
+    .paraNcontent4{
         justify-content: center;
         display: flex;
         flex-direction: column;
         font-size: 1.5rem;
 
     }
-}
-@media only screen and (min-width: 650px) and (max-width:1000px){
+
     .section5{
         flex-direction: column;
         justify-content: start;
@@ -371,10 +393,8 @@ gap: 20px;
         flex-direction: column;
         margin-top: 20px;}
 
-        .w-100{
-            width: 100%;
-        }
-    .paraNcontent4{
+      
+    .paraNcontent5{
         justify-content: center;
         display: flex;
         flex-direction: column;
@@ -382,13 +402,13 @@ gap: 20px;
         font-size: 1.5rem;
 
     }
-}
-@media only screen and (min-width: 650px) and (max-width:1000px){
+
+
     .section6{
         flex-direction: column;
         justify-content: start;
     }
-    .paraNcontent5{
+    .paraNcontent6{
           display: flex;
         justify-content: center;
         text-align: center;
