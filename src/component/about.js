@@ -14,26 +14,26 @@ const About = () => {
      
     <div className='bookicon'>
   <div>
-<img src={bookicon}alt='book' style={{width:"27px", height:"27px"}} />
+<img src={bookicon}alt='book' style={{width:"27px", height:"27px", marginBottom:"10px"}} />
 <h4>Title Goes Here</h4>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
 </div>
 
   <div>
-<img src={bookicon}alt='novel' style={{width:"27px", height:"27px"}} />
+<img src={bookicon}alt='novel' style={{width:"27px", height:"27px", marginBottom:"10px"}} />
 <h4>Title Goes Here</h4>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
 </div>
 </div>
     <div className='bookicon'>
   <div>
-<img src={bookicon}alt='book' style={{width:"27px", height:"27px"}} />
+<img src={bookicon}alt='book' style={{width:"27px", height:"27px", marginBottom:"10px"}} />
 <h4>Title Goes Here</h4>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
 </div>
 
   <div>
-<img src={bookicon}alt='novel' style={{width:"27px", height:"27px"}} />
+<img src={bookicon}alt='novel' style={{width:"27px", height:"27px", marginBottom:"10px"}} />
 <h4>Title Goes Here</h4>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
 </div>
